@@ -43,6 +43,10 @@ body{
    position: sticky;
    height: 80px;
    background-color: black;
+   bottom: 0;
+   display: flex;
+   justify-content:center;
+   align-items: center;
  }
  my progress bar{
    width: 80vw;
