@@ -16,7 +16,7 @@ body{
     display:flex;
     align-items: center;
     list-style-type: none;
-    height: 89px;
+    height: 65px;
     background-color: black;
     color:white;
  }
@@ -36,9 +36,17 @@ body{
  }
 
  .container{
-   main-height: 75vh;
+   min-height: 75vh;
    background-color: black;
    color: azure;
+   font-family: 'Varela Round',sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('gettyimages-1460621505-2048x2048');
+
  }
 
  .bottom{
@@ -54,12 +62,12 @@ body{
    
  }
  .icons{
-  margin-top: 14px 0;
+  margin-top: 14px;
  }
  .icons{
   cursor: pointer;
  }
- my progress bar{
-   width: 80vw;
-   text-align: center;
+ #myprogressbar{
+  width: 50vw;
+  text-align: center;
  }
