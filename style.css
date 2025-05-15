@@ -37,16 +37,27 @@ body{
 
  .container{
    main-height: 75vh;
+   background-color: black;
+   color: azure;
  }
 
  .bottom{
    position: sticky;
    height: 80px;
    background-color: black;
+   color: white;
    bottom: 0;
    display: flex;
    justify-content:center;
    align-items: center;
+   flex-direction: column;
+   
+ }
+ .icons{
+  margin-top: 14px 0;
+ }
+ .icons{
+  cursor: pointer;
  }
  my progress bar{
    width: 80vw;
