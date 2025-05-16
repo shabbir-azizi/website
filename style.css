@@ -71,3 +71,15 @@ body{
   width: 50vw;
   text-align: center;
  }
+ .songitem{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 80px;
+  color: black;
+  margin: 12px 0;
+ }
+
+ .songitem img{
+
+ }
