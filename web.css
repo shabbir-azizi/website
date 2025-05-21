@@ -16,3 +16,13 @@
     max-width: 900px;
     margin: 0 auto;
 }
+.top_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_container
+,img{
+    width: 300;
+    height: 325;
+}
