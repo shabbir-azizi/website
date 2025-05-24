@@ -4,14 +4,11 @@
     box-sizing: border-box;
 
 }
-
-
 .container{
     background-color: darkgray;
     min-height: 100vh;
     border-color: 10px solid black;
 }
-
 .content{
     max-width: 900px;
     margin: 0 auto;
@@ -28,13 +25,13 @@
     text-transform: uppercase;
 }
 
-.image_container{
+.image_container {
     border-radius: 50%;
     overflow: hidden;
 }
 
-.image_container
-,img{
+.image_container,
+img {
     width: 300;
     height: 325;
 }
