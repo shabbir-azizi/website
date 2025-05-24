@@ -17,12 +17,18 @@
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 .top_section h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: rgb(5, 27, 49);
     text-transform: uppercase;
+}
+
+.top_section h4{
+    font-size: 30px;
+    text-align: end;
 }
 
 .image_container {
@@ -34,4 +40,9 @@
 img {
     width: 300;
     height: 325;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
 }
