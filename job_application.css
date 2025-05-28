@@ -22,3 +22,6 @@ background-color: gray;
     box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1) ;
     border-radius: 10px;
 }
+.title_small{
+    font-size: 20px;
+}
