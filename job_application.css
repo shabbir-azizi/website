@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+background-color: gray;
+}
+
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -13,4 +17,8 @@
     max-width: 600px;
     padding: 20px;
     background-color: azure;
+    margin: 0px auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1) ;
+    border-radius: 10px;
 }
