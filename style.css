@@ -110,3 +110,24 @@ body{
     height: 65px;
     background-color: black;
     color:white;
+    
+    
+    
+    
+    
+    *{
+    margin: 0;
+    padding: 0;
+ }
+ nav{
+    font-family:'ubuntu',sans-serif;
+ }
+ nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color:white;
+    
+    
