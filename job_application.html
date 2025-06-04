@@ -33,15 +33,16 @@
                     </div>
                         <div class="form_control">
                         <label for="email">Last Name</label>
-                        <input type="email"
+                        <input 
+                        type="email"
                         id="email"
                         name="email"
                         placeholder="Enter email..."
-                        />
+                        /> 
                     </div>
                         <div class="form_control">
-                        <label for="job_role">Last Name</label>
-                        <select>
+                        <label for="job_role">Job Role</label>
+                        <select id="job_role" name="job_role">
                             <option value="">Select Job Role</option>
                             <option value="frontend">Foranted Developer</option>
                             <option value="backend">Backend Developer</option>
@@ -50,7 +51,17 @@
 
                         </select>
                     </div>
-                </div>           
+                        <div class="form_control">
+                        <label for="Adress">Adress</label>
+                        <textarea 
+                        id="Adress" 
+                        name="adress" 
+                        row="4"
+                        cols="50"
+                        placeholder="Enter Address">
+                        </textarea>
+                    </div> 
+                </div>        
             </form>
         </div>
     </div>
