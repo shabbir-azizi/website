@@ -39,6 +39,7 @@ background-color: gray;
 
 label{
     font-size: 15px;
+    margin-bottom: 50px;
 }
 
 input , select ,textarea{
@@ -46,4 +47,12 @@ input , select ,textarea{
     border: 1px solid;
     border-radius: 4px;
     font-size: 15px+;
+}
+
+input:focus{
+    outline-color: red;
+}
+.button_container {
+    display: flex;
+    justify-content: flex-end;
 }
