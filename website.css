@@ -91,3 +91,19 @@ background-color: gray;
     max-width: 900px;
     margin: 0 auto;
 }
+
+
+input , select ,textarea{
+    padding: 6px 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 15px+;
+}
+
+input:focus{
+    outline-color: red;
+}
+.button_container {
+    display: flex;
+    justify-content: flex-end;
+}
