@@ -107,3 +107,17 @@ input:focus{
     display: flex;
     justify-content: flex-end;
 }
+/* button{
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+} */
+ button{
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px; */
+/* }
